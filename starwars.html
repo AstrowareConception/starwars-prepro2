@@ -1,0 +1,60 @@
+<html>
+
+<body id="body" onclick="play()">
+
+<!-- Place in document head -->
+<link rel="stylesheet" href="starwarsintro.css">
+
+<!-- Place in Body where you'd like intro to appear -->
+<div class="star-wars-intro">
+
+  <!-- Blue Intro Text -->
+  <p class="intro-text">
+    Dans une lointaine, très lointaine académie ...
+  </p>
+
+  <!-- Logo Image or Text goes in here -->
+  <h2 class="main-logo" style="width:5.6em;    margin-left: -2.8em">
+    <img src="img/star-wars-intro.png">
+  </h2>
+
+  <!-- All Scrolling Content Goes in here -->
+  <div class="main-content">
+
+    <div class="title-content">
+      <p class="content-header"><span style="text-transform:uppercase">Compétences Prépro</span><br>Résumé de l'épisode 2<br>Apprendre à se valoriser</p>
+
+
+      <br>
+
+      <p class="content-body">
+Après un tour d’horizon sur les ressources de l’orientation, les padawans étudiants ont pu se plonger sur des questions plus personnelles concernant leur avenir professionnel.<br><br>
+
+Accompagnés par les maîtres Jedi de l’orientation, ils ont pu découvrir leur environnement économique, grâce à de nombreux outils et ressources. De quoi les amener sur les possibilités après une L2 et la Grande Question des choix.<br><br>
+
+Dans leur quête du futur, les apprentis Jedi se sont heurtés à la notion de compétences et ont pu découvrir qu’ils étaient sur le chemin pour acquérir la Force, voire parfois même qu’ils en maîtrisaient un ou plusieurs aspects.<br><br>
+
+Enfin, parce que la Force n’est pas l’unique moyen d’accéder au statut de Jedi, les maîtres de l’orientation leur ont donné les clés d’un parcours diversifié pour valoriser leurs expériences à travers les fameux outils de la Force : CV, lettre de motivation, réseaux sociaux professionnels…<br><br>
+
+Le moment est arrivé pour les padawans de mettre à profit tous leurs enseignements pour conquérir leur destin !<br><br>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+</script>
+
+
+    <audio id="audio" src="StarWars Start Windows.mp3"></audio>
+
+
+
+
+</body>
+</html>
